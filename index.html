@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JustStreamIt</title>
+  <link rel="stylesheet" href="style.css">
+<script src="js/main.js" defer></script>
+</head>
+<body>
+
+  <header>
+    <div id="logo">
+      <img src="images/logo.png" alt="Logo JustStreamIt">
+      <span>Vidéos à la demande</span>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Meilleur film -->
+    <h1>Meilleur film</h1>
+    <section id="best-movie">
+      <div class="movie-featured">
+          <div class="left-side">
+            <img src="..." alt="...">
+          </div>
+        <div class="right-side">
+          <h2>Titre du film</h2>
+          <p>Description...</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Films les mieux notés -->
+    <h1>Films les mieux notés</h1>
+    <section id="top-rated">
+      <div class="carousel">
+      </div>
+    </section>
+
+    <!-- Catégorie 1 -->
+    <h1>Mystery</h1>
+    <section id="category-mystery">
+      <div class="carousel"></div>
+    </section>
+
+    <!-- Catégorie 2 -->
+    <h1>Drama</h1>
+    <section id="category-drama">
+      <div class="carousel">
+      </div>
+    </section>
+
+    <!-- Catégorie 3 -->
+    <h1>Autres :</h1>
+    <section id="category-3">
+      <label for="category-select">Choisissez une catégorie :</label>
+      <select id="category-select">
+        <option>Films d'action</option>
+        <option>Comédies</option>
+        <option>Famille</option>
+        <option>Films de fantasy</option>
+        <option>Films d'horreur</option>
+        <option>Science-fiction</option>
+        <option>Westerns</option>
+      </select>
+
+      <div class="carousel" id="category-3-carousel">
+        <p>Voir au-dessus (catégorie choisie)</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 JustStreamIt</p>
+  </footer>
+
+  <!-- Modale -->
+  <div id="modal" class="hidden">
+    <div class="modal-content"></div>
+  </div>
+
+</body>
+</html>
