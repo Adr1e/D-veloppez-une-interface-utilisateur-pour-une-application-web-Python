@@ -1,23 +1,23 @@
-/* Reset de base */
+/* ========== Reset ========== */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Corps de page */
+/* ========== Base ========== */
 body {
   font-family: Arial, sans-serif;
   font-size: 16px;
   background-color: #f9f9f9;
-  color: #333333;
+  color: #333;
   padding: 20px;
 }
 
-/* Header */
+/* ========== Header ========== */
 header {
   background-color: #61787F;
-  border: 1px solid #000000;
+  border: 1px solid #000;
   padding-left: 25px;
   display: flex;
   align-items: center;
@@ -40,19 +40,19 @@ header {
   color: white;
 }
 
-/* Sections principales */
+/* ========== Sections ========== */
 main > section {
   margin: 30px 0;
-  background-color: #ffffff;
+  background-color: #fff;
   padding: 20px;
   border-radius: 8px;
 }
 
-/* Meilleur film */
+/* ========== Meilleur film ========== */
 #best-movie {
-  border: 6px solid #000000;
+  border: 6px solid #000;
   padding: 20px;
-  background-color: white;
+  background-color: #fff;
 }
 
 .movie-featured {
@@ -81,8 +81,7 @@ main > section {
   line-height: 1.4;
 }
 
-
-/* Carrousels */
+/* ========== Carrousels ========== */
 .carousel {
   display: flex;
   overflow-x: auto;
@@ -95,22 +94,22 @@ main > section {
   border-radius: 4px;
 }
 
-/* Sélecteur de catégorie */
+/* ========== Sélecteur Catégorie ========== */
 #category-3 select {
   margin: 10px 0;
   padding: 10px;
   font-size: 16px;
 }
 
-/* Footer */
+/* ========== Footer ========== */
 footer {
   text-align: center;
   padding: 20px;
-  color: #666666;
+  color: #666;
   font-size: 14px;
 }
 
-/* Modale */
+/* ========== Modale ========== */
 #modal {
   position: fixed;
   top: 0;
@@ -118,21 +117,18 @@ footer {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.8);
-  display: flex; /* Important : ce sera retiré par la classe .hidden */
+  display: flex; /* retiré par .hidden */
   align-items: center;
   justify-content: center;
   z-index: 1000;
 }
 
-/* Ce qui masque la modale par défaut */
 .hidden {
   display: none !important;
 }
 
-
-
 #modal .modal-content {
-  background-color: #ffffff;
+  background-color: #fff;
   padding: 30px;
   border-radius: 8px;
   width: 80%;
@@ -150,7 +146,7 @@ footer {
   cursor: pointer;
 }
 
-
+/* ========== Bouton rouge ========== */
 .button-red {
   background-color: #C0392B;
   color: white;
@@ -161,5 +157,3 @@ footer {
   cursor: pointer;
   font-size: 16px;
 }
-
-
